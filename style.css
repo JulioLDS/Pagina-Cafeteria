@@ -1,0 +1,332 @@
+:root {
+    font-size: 10px;
+
+    --main-color: #d3ad7f;
+    --black: #131313;
+    --bg: #010103;
+    --border: .4rem solid rgba(255, 255, 255, .3);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.box-video {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.box-video video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    object-fit: cover;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    background-color: var(--bg);
+    border-bottom: var(--border);
+    width: 100%;
+}
+
+header section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 1.5rem 0rem;
+    position: relative;
+}
+
+header section a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+header section .logo a h1::after {
+    position: relative;
+    content: ".";
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+header section a img {
+    height: 6rem;
+}
+
+header section nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+header section nav ul {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+header section nav ul li {
+    position: relative;
+}
+
+header section nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+header section nav ul li a:hover::after {
+    width: 100%;
+}
+
+header section nav a:hover {
+    color: var(--main-color);
+}
+
+.principal {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal div {
+    max-width: 60rem;
+}
+
+.principal div h3 {
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+
+}
+
+.principal div p {
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.8rem 3rem;
+    border-radius: 2px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 1.7rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    letter-spacing: 1px;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #fff;
+    padding-bottom: 3.5rem;
+}
+
+.titulo span {
+    color: var(--main-color);
+}
+
+.sobre .content-sobre {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background-color: var(--black);
+    border-radius: 10px;
+
+}
+
+.sobre .content-sobre .imgSobre {
+    flex: 1 1 45rem;
+}
+
+.sobre .content-sobre .imgSobre img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sobre .content-sobre .textSobre {
+    flex: 1 1 45rem;
+    padding: 2rem;
+    text-align: left;
+
+}
+
+.sobre .content-sobre .textSobre h3 {
+    font-size: 3rem;
+    color: #fff;
+    padding-block: 2rem;
+}
+
+.sobre .content-sobre .textSobre p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: lighter;
+    text-align: left;
+    padding-block: 1rem;
+
+}
+
+.box-conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.box-conteiner .card {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #131313ba;
+
+}
+
+
+.menu .box-conteiner .card img {
+    height: 10rem;
+}
+
+.box-conteiner .card h3 {
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-conteiner .card .price {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.menu .box-conteiner .card .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+.review .box-conteiner .card {
+    padding: 3rem 2rem;
+}
+
+.review .box-conteiner .card p {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+
+
+.review .box-conteiner .card .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.menu .box-conteiner .card:hover {
+    background-color: aliceblue;
+}
+
+.menu .box-conteiner .card:hover>* {
+    color: var(--bg);
+}
+
+
+
+
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: -30%;
+    transform: translate(-50%, -50%);
+    transition: left .5s ease-in-out;
+}
+
+.mask-modal {
+    visibility: hidden;
+    position: fixed;
+    z-index: 3;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--black);
+}
+
+footer .share{
+    display: flex;
+    margin: 0.3rem;
+    cursor: pointer;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+footer.shre img{
+    position: relative;
+}
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Cafeteria</title>
+</head>
+
+<body>
+    <div class="box-video">
+        <video src="videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mask"></div>
+    </div>
+
+    <header>
+        <section>
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo">
+                    <h1>Coffe</h1>
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#avaliacoes">Avaliações</a></li>
+                    <li><a href="#" onclick="mostrarModal()">Endereço</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="principal">
+        <div>
+            <h3>Coffe o melhor café da sua região</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam recusandae perspiciatis, ratione vero
+                quam commodi accusantium sint repudiandae nostrum quasi debitis odio rerum impedit architecto,
+                aspernatur placeat facilis voluptatem aliquam!</p>
+            <a class="btn" href="#">Pegue o seu agora</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h2 class="titulo"><span>Sobre</span> nós</h2>
+        <div class="content-sobre">
+            <div class="imgSobre">
+                <img src="img/about-img.jpeg" alt="sobre">
+            </div>
+
+            <div class="textSobre">
+                <h3>O que faz nosso café ser especial?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni ex eum illum, esse
+                    consequuntur rem delectus perferendis veritatis placeat itaque aspernatur? Consectetur
+                    distinctio obcaecati molestias quod doloribus ullam harum.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum animi quas eligendi amet ducimus
+                    reprehenderit vel vitae et iure aperiam voluptate in iste, nobis corrupti aspernatur, nihil
+                    harum ad sequi.</p>
+                <a class="btn" href="#">Pegue o seu agora</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2 class="titulo"><span>Nosso</span> Menu</h2>
+        <div class="box-conteiner">
+            <div class="card">
+                <img src="https://i.ibb.co/XkGk0YY/menu-1.png" alt="item1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/T1KGT8s/menu-3.png" alt="item1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/4PvZRWh/menu-2.png" alt="item1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/bP461r8/menu-4.png" alt="item1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/6NxVCdw/menu-5.png" alt="item1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/tb0H4tV/menu-6.png" alt="item1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="avaliacoes" class="review">
+        <h2 class="titulo"><span>Nossos</span> Clientes</h2>
+        <div class="box-conteiner">
+            <div class="card">
+                <img src="https://i.ibb.co/8dT8L8V/quote-img.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, quidem soluta accusamus ducimus omnis placeat expedita minima magnam praesentium perspiciatis beatae est tenetur quia, modi illum! Illum odio doloremque atque?</p>
+                <img src="https://i.ibb.co/c23H6vN/pic-1.png" alt="fotoCliente" class="user">
+                <h3>Pedro</h3>
+                <div class="stars">
+                    <img class="star" width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half.png" alt="star-half"/>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/8dT8L8V/quote-img.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, quidem soluta accusamus ducimus omnis placeat expedita minima magnam praesentium perspiciatis beatae est tenetur quia, modi illum! Illum odio doloremque atque?</p>
+                <img src="https://i.ibb.co/c23H6vN/pic-1.png" alt="fotoCliente" class="user">
+                <h3>Pedro</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half.png" alt="star-half"/>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/8dT8L8V/quote-img.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, quidem soluta accusamus ducimus omnis placeat expedita minima magnam praesentium perspiciatis beatae est tenetur quia, modi illum! Illum odio doloremque atque?</p>
+                <img src="https://i.ibb.co/c23H6vN/pic-1.png" alt="fotoCliente" class="user">
+                <h3>Pedro</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png" alt="star--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star-half.png" alt="star-half"/>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14817.298231647994!2d-49.61973215051673!3d-21.806387430712423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1739146968876!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="mask-modal" onclick="esconderModal()"></div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="share">
+            <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/instagram-new.png" alt="instagram-new"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/facebook-new.png" alt="facebook-new"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="twitterx--v1"/>
+        </div>
+    </footer>
+
+</body>
+
+</html>
