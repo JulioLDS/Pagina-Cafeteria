@@ -3,3 +3,8 @@ LandPage apenas demomstrativa sobre uma cafeteria, com design intuitivo e opÃ§Ã£
 link para pÃ¡gina:
 
 https://juliolds.github.io/P-gina-Cafeteria/
+
+
+## Descrição do Projeto
+LandPage apenas demomstrativa sobre uma cafeteria, com design intuitivo e opção de Endereço com JavaScript
+![Imagem](images/screenshot.png)
