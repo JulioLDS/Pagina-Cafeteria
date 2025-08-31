@@ -1,5 +1,10 @@
-LandPage apenas demomstrativa sobre uma cafeteria, com design intuitivo e opÃ§Ã£o de EndereÃ§o com JavaScript
+# Um App De Tarefas Incrível 🚀
 
-link para pÃ¡gina:
+Este projeto é incrível e foi criado para um app de tarefas incrível.
 
-https://juliolds.github.io/P-gina-Cafeteria/
+💡 **Recursos principais:**
+- Interface moderna e intuitiva
+- Funcionalidades completas e eficientes
+- Código limpo e bem documentado
+
+![Imagem](images/screenshot.png)
