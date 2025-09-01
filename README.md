@@ -1,11 +1,26 @@
-# Uma Landing Page De Cafeteria Com Javascript 🚀
+# ☕ Cafeteria LandPage
 
-Este projeto é incrível e foi criado para uma landing page de cafeteria com javascript.
+Uma LandPage simples e moderna para uma cafeteria, criada como projeto de treino de **design e front-end**.
+Inclui integração com **JavaScript** para exibir o endereço usando **Google Maps**.
+
+---
 
 💡 **Recursos principais:**
-- Interface moderna e intuitiva
-- Funcionalidades completas e eficientes
-- Código limpo e bem documentado
+- Interface limpa e atraente
+- Navegação intuitiva
+- Responsiva para diferentes dispositivos
+- Localização da cafeteria exibida diretamente no mapa 🗺️
+- Código organizado e fácil de entender
+
+🎨 **Tecnologias utilizadas:**
+- HTML5
+- CSS3 (foco em design moderno)
+- JavaScript (para integração com o mapa)
+
+✨ **Objetivo do projeto:**
+- Treinar habilidades de design de interfaces 🎨
+- Manipulação de JavaScript para funcionalidades práticas ⚡
+- Criar uma página funcional e agradável de usar ☕
 
 ![Imagem](images/screenshot.png)
 
