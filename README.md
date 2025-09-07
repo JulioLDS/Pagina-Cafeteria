@@ -22,7 +22,7 @@ Inclui integração com **JavaScript** para exibir o endereço usando **Google M
 - Manipulação de JavaScript para funcionalidades práticas ⚡
 - Criar uma página funcional e agradável de usar ☕
 
-📸 **Screenshots:**
+
 ![Screenshot](images/screenshot.png)
 
 
